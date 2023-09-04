@@ -82,7 +82,25 @@
 			</div>
 		</div>
 	{:else}
-		<h1 class="text-2xl font-bold">Mobile View</h1>
+		<div class="bg-gray-100 min-h-screen">
+			<div class="grid grid-cols-1 grid-flow-col w-screen" />
+			<div class="col-span-4 w-full h-72 bg-rose-100">
+				<p class="h-full">5*4</p>
+			</div>
+			<div class="col-span-4 row-span-2 bg-yellow-100 flex justify-center items-center">
+				<div class="w-72 h-72 bg-yellow-100 text-white">
+					<div class="w-72 h-72 bg-blue-900 flex items-center justify-center">
+						<div class="w-40 h-40 bg-yellow-100 rounded-full flex items-center justify-center">
+							<div class="mountain">
+								<div class="peak-small" />
+								<div class="peak-large" />
+								<div class="mountain-base" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	{/if}
 </div>
 
